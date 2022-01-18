@@ -27,3 +27,9 @@ const position = name.indexOf("Moni");
 //remove item by indx numebr
 name.splice(0, 1);
 console.log(name);
+
+//splice
+
+const laptop = ["hp", "dell", "asus", "apple", "gigabyte"];
+const spliceArray = laptop.splice(1);
+console.log(spliceArray);

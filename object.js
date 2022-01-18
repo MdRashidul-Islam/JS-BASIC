@@ -24,7 +24,6 @@ console.log(laptop);
 laptop.hardDisk = "1TBHDD + 120GBM.2";
 console.log(laptop);
 
-////////////////////////////////////////////////////////////////
 let newItem = {
   name: "Mi Router",
   price: "1000",
