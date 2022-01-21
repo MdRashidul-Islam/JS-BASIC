@@ -28,3 +28,15 @@ let newItem = {
   name: "Mi Router",
   price: "1000",
 };
+
+//add function in a object
+newItem.message = function () {
+  console.log(`Hello i am added`);
+};
+
+console.log(newItem.message());
+
+//loop on an object
+for (item in newItem) {
+  console.log(item);
+}
